@@ -11,10 +11,8 @@ export class CustonTextBoxComponent {
   @Input() type: any;
   @Input() placeholder: any;
   @Input() class: any;
-
-  
-
   @Input() childData: any;
+
   @Output() childDataChange: EventEmitter<any> = new EventEmitter();
   
   
