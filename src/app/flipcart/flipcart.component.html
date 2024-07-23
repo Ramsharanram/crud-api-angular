@@ -1,0 +1,29 @@
+<app-addeditform [editData]="data" (refreshData)="getallData()"></app-addeditform>
+
+<div class="mg5">
+    <table class="data">
+        <tr>
+            <th>Emp Name</th>
+            <th>Emp Address</th>
+            <th>Emp Phone No.</th>
+            <th>Emp Email Id</th>
+            <th>Salary</th>
+            <th>Action</th>
+        </tr>
+
+        <tbody>
+            <tr *ngFor="let data of allData">
+                <td>{{data.name | titlecase }}</td>
+                <td>{{data.address}}</td>
+                <td>{{data.phone | usapipe}}</td>
+                <td>{{data.email}}</td>
+                <td>{{data.salary | mypipe }}</td>
+                <td>
+                    <button (click)="getsingleData(data)">Update</button>&nbsp; &nbsp;
+                    <button (click)="deleteData(data)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

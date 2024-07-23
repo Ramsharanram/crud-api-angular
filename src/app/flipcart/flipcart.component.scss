@@ -1,0 +1,42 @@
+.demo{
+  margin: auto;
+  width: 30%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 100px;
+  background-color: gray;
+  color: white;
+}
+
+.demo1{
+    width: 180px;
+    height: 23px;
+}
+
+.demo2{
+    margin: auto;
+    margin-left: 90%;
+    margin-top: 25px;
+    size: 30px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.demo3{
+     font-size: 20px;
+}
+.data tbody tr td {
+  padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+.data {
+  margin-top: 80px;
+  margin-left: 450px;
+  border: 3px solid green;
+}

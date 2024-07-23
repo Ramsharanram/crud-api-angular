@@ -1,0 +1,58 @@
+<div class="demo">
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label class="demo3">Enter Employee Name</label>
+                </td>
+                <td>
+                    <app-custon-text-box [(childData)]="name" [type]="'text'" [name]="'name'" 
+                        [class]="'demo1'" [placeholder]="'Enter Employee Name'"></app-custon-text-box>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="demo3">Enter Employee Address</label>
+                </td>
+                <td>
+                    
+                        <app-custon-text-box [(childData)]="address" [type]="'text'" [name]="'address'" 
+                        [class]="'demo1'" [placeholder]="'Enter Employee Address'"></app-custon-text-box>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="demo3">Enter Employee Email Id</label>
+                </td>
+                <td>
+                        <app-custon-text-box [(childData)]="email" [type]="'text'" [name]="'email'" 
+                        [class]="'demo1'" [placeholder]="'Enter Employee Email Id'"></app-custon-text-box>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="demo3">Enter Employee Phone No</label>
+                </td>
+
+                <td>
+                        <app-custon-text-box [(childData)]="phone" [type]="'text'" [name]="'phone'" 
+                        [class]="'demo1'" [placeholder]="'Enter Employee Phone No'"></app-custon-text-box>
+                    </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="demo3" name="salary">Salary</label>
+                </td>
+                <td>
+
+                    <app-custon-text-box [(childData)]="salary" [type]="'text'" [name]="'salary'" 
+                        [class]="'demo1'" [placeholder]="'Enter Salary'"></app-custon-text-box>
+                </td>
+            </tr>
+            <tr>
+                <td><app-custom-button (customClick)="create()"></app-custom-button></td>
+            </tr>
+        </table>
+    </form>
+</div>

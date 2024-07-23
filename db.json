@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "name": "Jameer bhai",
+      "address": "Noida",
+      "email": "jamee@gmail.com",
+      "phone": "165564644",
+      "salary": "1000000",
+      "id": "afd2"
+    },
+    {
+      "name": "mukesh",
+      "address": "Noida",
+      "email": "mukesh@gmail.com",
+      "phone": "874654656",
+      "salary": "100000",
+      "id": "870c"
+    },
+    {
+      "name": "Obama beta",
+      "address": "India",
+      "email": "obama@gmail.com",
+      "phone": "165564644",
+      "salary": "1000000",
+      "id": "c55a"
+    },
+    {
+      "name": "ram sharan ram",
+      "address": "noida",
+      "email": "ram@gmail.com",
+      "phone": "113132131",
+      "salary": "20000",
+      "id": "ec5b"
+    },
+    {
+      "id": "7d81",
+      "name": "mohan",
+      "address": "noida",
+      "email": "h",
+      "phone": "552222 2 ",
+      "salary": "100000"
+    },
+    {
+      "name": "Mohit",
+      "address": "fvd",
+      "email": "dfdfgfdg@gmail.com",
+      "phone": "1",
+      "salary": "5131321",
+      "id": "21de"
+    },
+    {
+      "id": "2c72"
+    },
+    {
+      "id": "47ea",
+      "name": "rohit",
+      "address": "noida",
+      "phone": "313131",
+      "salary": "546511"
+    }
+  ]
+}
